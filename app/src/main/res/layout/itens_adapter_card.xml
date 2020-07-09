@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvApelido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Apelido Card"
+        android:ems="10"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Number Card"
+        android:textSize="20dp"
+        android:layout_below="@+id/tvApelido"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tvDtCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:textAlignment="center"
+        android:text="XX"
+        android:textSize="20dp"
+        android:inputType="date"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+    <!--android:layout_toStartOf="@+id/main_line_delete"-->
+
+</RelativeLayout>
